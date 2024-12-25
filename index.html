@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Music Player (Fixed at the top) -->
+    <div class="music-player">
+        <h1>Now Playing</h1>
+        <div class="player-controls">
+            <img id="cover-image" src="" alt="Cover Image" class="cover-image">
+            <div class="player-info">
+                <h2 id="song-title">Select a song to play</h2>
+                <audio id="audio" controls></audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- Song List Section (Rows of songs) -->
+    <div class="song-list-container">
+        <h2>Song Library</h2>
+        <div id="song-list" class="song-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
